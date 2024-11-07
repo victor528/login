@@ -1,0 +1,88 @@
+/* Importa uma fonte do Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@200;300;400;500;600;700&display=swap");
+
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+    font-family: "Open Sans", "sans-serif";
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    width: 100%;
+    background: url("imglogin2.jpg") center/cover,#000;
+}
+.container{
+    width: 400px;
+    border-radius: 8px;
+    padding: 30px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(9px);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+}
+.titulo{
+    font-size: 26px;
+    margin-bottom: 20px;
+    color:#fff;
+}
+.labelform{
+    display: block;
+    text-align: left;
+    margin-top: 10px;
+    color: #fff;
+}
+.inputform{
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.2);
+    color: #fff;
+    font-size: 16px;
+    outline: none;
+
+}
+::placeholder{
+    color: #fff;
+    font-size: 16px;
+}
+a{
+    display: block;
+    color: #efefef;
+    text-decoration: none;
+    margin-top: 10px;
+
+}
+a:hover{
+    text-decoration: underline;
+    
+}
+button{
+    width: 100%;
+    padding: 12px;
+    background: #fff;
+    font-weight: 600;
+    border: none;
+    border-radius: 3px;
+    font-size: 16px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+button:hover{
+    background-color:rgba(255, 255, 255, 0.2) ;
+    color: #fff;
+    transition: 1111ms;
+
+}
+.cadastro{
+    margin-top: 20px;
+    color: #fff;
+}
+.cadastro a{
+    color: #efefef ;
+}
